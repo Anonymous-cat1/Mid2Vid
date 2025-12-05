@@ -58,7 +58,7 @@
     </ul>
 
     <h2>4. Discord Interactions & Message Deletion</h2>
-    <p>To minimize local data storage, the Bot utilizes Discord's infrastructure to track what conversions came from you:</p>
+    <p>To minimize local data storage, the Bot utilizes Discord's infrastructure to track what conversions came from you, and to host conversions.:</p>
     <ul>
         <li><strong>Mention-Based Logging:</strong> The Bot mentions you in the conversion response. This allows the Bot to use Discord's servers to associate the interaction with your User ID instead of maintaining a local database of your history.</li>
         <li><strong>Deletion Limitations:</strong> Requesting a "data deletion" from the Bot clears your locally stored *preferences*. It <strong>does not</strong> delete the conversion messages or history, as these reside on Discord's servers. To remove these conversions, you must delete the messages manually via the Bot (by reacting with ❌ on the message containing the conversion), or by contacting <a href="https://support.discord.com/hc/">Discord Support</a>.</li>
